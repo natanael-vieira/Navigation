@@ -11,7 +11,7 @@ const Stack = createNativeStackNavigator()
 
 export default props => (
     <Stack.Navigator initialRouteName='TelaA' 
-        screenOptions={{ headerShown: false }}>
+        screenOptions={{ headerShown: true }}>
         <Stack.Screen name='TelaA' 
             options={{ title: 'Informações Iniciais' }}
             component={TelaA} />
