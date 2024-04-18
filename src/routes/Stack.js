@@ -22,9 +22,9 @@ export default props => (
                 )}
             </Stack.Screen>
         <Stack.Screen name='TelaB' 
-            options={{ title: 'Tela B' }}>
+            options={{ title: 'Tela B' }} >
                 {props => (
-                    <PassoStack {...props} avancar='TelaC'>
+                    <PassoStack {...props} avancar='TelaC' voltar >
                         <TelaB />
                     </PassoStack>
                 )}
