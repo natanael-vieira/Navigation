@@ -6,7 +6,7 @@ export default props => (
         <View>
             {props.avancar
                 ? <Button 
-                    title='Avançar'
+                    title='Próxima'
                     onPress={() => {
                         props.navigation.navigate(props.avancar)
                     }}
