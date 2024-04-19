@@ -3,7 +3,7 @@ import { View, Text, Button } from 'react-native'
 
 export default props => (
     <View style={{ flex: 1 }}> 
-        <View style={{flexDirection: 'row', justifyContent: 'space-between'}}>
+        <View style={{flexDirection: 'row', justifyContent: 'space-around'}}>
             {props.voltar
                 ? <Button 
                     title='Anterior'
