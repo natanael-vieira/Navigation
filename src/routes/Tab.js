@@ -11,7 +11,7 @@ export default props => (
         tabBarActiveTintColor: 'red',
         tabBarInactiveTintColor: 'blue',
         tabBarLabelStyle: { fontSize: 30 }
-    }}>
+    }} initialRouteName='TelaC'>
         <Tab.Screen name='TelaA' component={TelaA} />
         <Tab.Screen name='TelaB' component={TelaB} />
         <Tab.Screen name='TelaC' component={TelaC} />
