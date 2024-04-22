@@ -11,7 +11,7 @@ export default props => (
     <Tab.Navigator 
         screenOptions= {({ route }) => ({
             tabBarIcon: ({ focused, color, size }) => {
-                let iconName;
+                let iconName
 
                 switch (route.name) {
                     case 'TelaA':
@@ -30,10 +30,10 @@ export default props => (
                         iconName = focused ? 'ios-list' : 'ios-list-outline'
                         break
                 }
-                return <Ionicons name={iconName} size={size} color={color} />
+                return <Ionicons name={'logo-react'} size={size} color={color} />
             },
-            tabBarActiveTintColo: 'red',
-            tabBarInactiveTintColor: 'blue',
+            tabBarActiveTintColor: 'red',
+            tabBarInactiveTintColor: 'gray',
             tabBarShowLabel: true,
             // tabBarLabelStyle: { fontSize: 30 }
 
